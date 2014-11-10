@@ -15,11 +15,11 @@
  * @proc {App} Documentation Process
  * @inport {App} pattern Pattern - The globbing pattern for .fbp files.
  */
-'*/**.fbp' -> @pattern App
+'*/**.fbp' -> pattern App
 
 /**
  * @inport {App} baseurl Base Url
  *  The base url is used during the generation of the README.md
  *  and will be prepended during the inclusion of the graph images
  */
-'https://raw.githubusercontent.com/flows/chix-doc/master/' -> @base_url App
+'https://raw.githubusercontent.com/flows/chix-doc/master/' -> base_url App
